@@ -8,10 +8,10 @@ var path = require('path');
 
 module.exports = {
 	devtool:'eval-source-map',
-	entry:'./observable.js',
+	entry:'./epic/demo1.js',
 	output:{
 		path:path.join(__dirname,'build'),
-		filename:'demo.js'
+		filename:'app.js'
 	},
 	module:{
 		loaders:[
