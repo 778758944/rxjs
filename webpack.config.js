@@ -8,7 +8,7 @@ var path = require('path');
 
 module.exports = {
 	devtool:'eval-source-map',
-	entry:'./epic/demo1.js',
+	entry:'./test/testenv.js',
 	output:{
 		path:path.join(__dirname,'build'),
 		filename:'app.js'
